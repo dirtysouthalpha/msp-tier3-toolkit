@@ -15,11 +15,11 @@ SOLUTION - DELETE OLD VERSION AND RE-DOWNLOAD:
 ----------------------------------------------
 
 1. DELETE these folders completely:
-   - C:\Users\Administrator\Downloads\msptier3toolkit-main
-   - C:\Users\Administrator\Downloads\msptier3toolkit-main (2)
+   - C:\Users\Administrator\Downloads\msp-tier3-toolkit-main
+   - C:\Users\Administrator\Downloads\msp-tier3-toolkit-main (2)
 
 2. GO TO GITHUB:
-   https://github.com/dirtysouthalpha/msptier3toolkit
+   https://github.com/dirtysouthalpha/msp-tier3-toolkit
 
 3. CLICK the green "Code" button
 

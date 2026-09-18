@@ -413,7 +413,7 @@ function Show-Help {
     Write-Host "  A collection of PowerShell automation scripts" -ForegroundColor Gray
     Write-Host "  for MSP technicians and system administrators" -ForegroundColor Gray
     Write-Host ""
-    Write-Host "  GitHub: github.com/dirtysouthalpha/msptier3toolkit" -ForegroundColor Cyan
+    Write-Host "  GitHub: github.com/dirtysouthalpha/msp-tier3-toolkit" -ForegroundColor Cyan
     Write-Host ""
 
     Write-Host "  [!] COMMON SCRIPTS" -ForegroundColor Yellow

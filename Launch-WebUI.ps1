@@ -318,7 +318,7 @@ try {
     <div class="footer">
         <p>MSP Tier 3 Toolkit v2.0 | Dazzle. Automate. Dominate.</p>
         <p style="margin-top: 10px;">
-            <a href="https://github.com/dirtysouthalpha/msptier3toolkit"
+            <a href="https://github.com/dirtysouthalpha/msp-tier3-toolkit"
                style="color: white; text-decoration: none; opacity: 0.8;"
                target="_blank">
                📦 GitHub Repository

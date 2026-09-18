@@ -103,7 +103,7 @@ powershell -ExecutionPolicy Bypass -File .\Launch-MSPToolkit.ps1
 ## 📁 **File Structure**
 
 ```
-msptier3toolkit/
+msp-tier3-toolkit/
 │
 ├── Launch MSP Toolkit.bat     ← Double-click this!
 ├── Launch-MSPToolkit.ps1      ← Or run this in PowerShell

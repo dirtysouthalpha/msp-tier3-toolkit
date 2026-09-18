@@ -149,8 +149,8 @@ powershell -ExecutionPolicy Bypass -File .\Install-MSPToolkit.ps1
 
 1. **Clone the repository:**
    ```powershell
-   git clone https://github.com/dirtysouthalpha/msptier3toolkit.git
-   cd msptier3toolkit
+   git clone https://github.com/dirtysouthalpha/msp-tier3-toolkit.git
+   cd msp-tier3-toolkit
    ```
 
 2. **Run the installer:**
@@ -745,7 +745,7 @@ Press [U] in main menu
   "updates": {
     "autoCheckForUpdates": true,
     "updateBranch": "main",
-    "gitRepoUrl": "https://github.com/dirtysouthalpha/msptier3toolkit.git",
+    "gitRepoUrl": "https://github.com/dirtysouthalpha/msp-tier3-toolkit.git",
     "backupBeforeUpdate": true
   }
 }

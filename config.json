@@ -64,7 +64,7 @@
   "updates": {
     "autoCheckForUpdates": true,
     "updateBranch": "main",
-    "gitRepoUrl": "https://github.com/dirtysouthalpha/msptier3toolkit.git",
+    "gitRepoUrl": "https://github.com/dirtysouthalpha/msp-tier3-toolkit.git",
     "backupBeforeUpdate": true
   },
   "webInterface": {

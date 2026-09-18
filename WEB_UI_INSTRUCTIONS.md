@@ -118,7 +118,7 @@ The web interface is enabled in `config.json`:
 
 - **Issues?** Check the troubleshooting section above
 - **Questions?** See the main README.md
-- **GitHub:** https://github.com/dirtysouthalpha/msptier3toolkit
+- **GitHub:** https://github.com/dirtysouthalpha/msp-tier3-toolkit
 
 ---
 
