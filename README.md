@@ -1,4 +1,15 @@
-# MSP Tier 3 Toolkit 🚀
+<p align="center">
+  <img src="assets/banner.svg" alt="MSP Tier 3 Toolkit — battle-tested PowerShell for the service desk">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/license-MIT-22D3EE?style=flat-square&labelColor=0A0A0F" alt="MIT license">
+  <img src="https://img.shields.io/badge/PowerShell-5.1%2B-22D3EE?style=flat-square&labelColor=0A0A0F" alt="PowerShell 5.1+">
+  <img src="https://img.shields.io/badge/platform-Windows-22D3EE?style=flat-square&labelColor=0A0A0F" alt="Windows">
+  <img src="https://img.shields.io/badge/built%20for-service%20desk-8B5CF6?style=flat-square&labelColor=0A0A0F" alt="service desk">
+</p>
+
+# MSP Tier 3 Toolkit
 
 Welcome to the **MSP Tier 3 Toolkit** — a collection of high-impact PowerShell scripts designed to help Service Desk Technicians, System Admins, and MSP engineers troubleshoot faster, automate routine tasks, and deliver enterprise-level support with confidence.
 
