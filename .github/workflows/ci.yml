@@ -1,0 +1,32 @@
+name: CI
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['**.md', 'docs/**', 'assets/**', 'LICENSE', 'NOTICE', 'TRADEMARK.md', '.gitignore']
+  pull_request:
+    paths-ignore: ['**.md', 'docs/**', 'assets/**', 'LICENSE', 'NOTICE', 'TRADEMARK.md', '.gitignore']
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Pester and PSScriptAnalyzer
+        shell: pwsh
+        run: |
+          Set-PSRepository -Name PSGallery -InstallationPolicy Trusted
+          Install-Module -Name Pester, PSScriptAnalyzer -Force -Scope CurrentUser -SkipPublisherCheck
+      - name: Pester
+        shell: pwsh
+        run: Invoke-Pester -CI
+      - name: PSScriptAnalyzer (Error severity)
+        shell: pwsh
+        run: |
+          $results = Invoke-ScriptAnalyzer -Path . -Recurse -Severity Error -Settings ./PSScriptAnalyzerSettings.psd1
+          $results | Format-Table -AutoSize
+          if ($results) { exit 1 }
